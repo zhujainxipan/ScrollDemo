@@ -23,6 +23,11 @@
             android:label="@string/title_activity_layout"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".OffsetActivity"
+            android:label="@string/title_activity_offset"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
