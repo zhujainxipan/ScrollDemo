@@ -45,6 +45,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.tv_scrollto).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ScrollToActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.tv_scroller).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ScrollerActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

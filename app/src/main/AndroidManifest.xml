@@ -28,6 +28,16 @@
             android:label="@string/title_activity_offset"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".ScrollToActivity"
+            android:label="@string/title_activity_scroll_to"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollerActivity"
+            android:label="@string/title_activity_scroller"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

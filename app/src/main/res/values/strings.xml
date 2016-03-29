@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_layout">LayoutActivity</string>
     <string name="title_activity_offset">OffsetActivity</string>
+    <string name="title_activity_scroll_to">ScrollToActivity</string>
+    <string name="title_activity_scroller">ScrollerActivity</string>
 </resources>
