@@ -5,4 +5,5 @@
     <string name="title_activity_offset">OffsetActivity</string>
     <string name="title_activity_scroll_to">ScrollToActivity</string>
     <string name="title_activity_scroller">ScrollerActivity</string>
+    <string name="title_activity_scroller_demo">ScrollerDemoActivity</string>
 </resources>

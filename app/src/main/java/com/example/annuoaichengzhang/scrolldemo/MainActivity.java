@@ -61,6 +61,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        findViewById(R.id.tv_scrollerdemo).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ScrollerDemoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
