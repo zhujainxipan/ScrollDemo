@@ -46,8 +46,9 @@ public class DragView extends View {
                 int offsetX = x - lastX;
                 int offsetY = y - lastY;
                 layout(getLeft() + offsetX, getTop() + offsetY, getRight() + offsetX, getBottom() + offsetY);
-
-                // 重新设置初始化坐标
+                Log.d("dragwiew", getLeft() + "");
+                // !!!必须加，不加就会出问题
+//                // 重新设置初始化坐标
                 lastY = y;
                 lastX = x;
                 break;
