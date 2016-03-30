@@ -10,6 +10,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.annuoaichengzhang.scrolldemo.qunyingzhuan.LayoutActivity;
+import com.example.annuoaichengzhang.scrolldemo.qunyingzhuan.OffsetActivity;
+import com.example.annuoaichengzhang.scrolldemo.qunyingzhuan.ScrollToActivity;
+import com.example.annuoaichengzhang.scrolldemo.qunyingzhuan.ScrollerActivity;
+import com.example.annuoaichengzhang.scrolldemo.qunyingzhuan.ScrollerDemoActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

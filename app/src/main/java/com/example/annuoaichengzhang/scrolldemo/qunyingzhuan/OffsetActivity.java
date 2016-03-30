@@ -1,4 +1,4 @@
-package com.example.annuoaichengzhang.scrolldemo;
+package com.example.annuoaichengzhang.scrolldemo.qunyingzhuan;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -7,12 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class ScrollerActivity extends AppCompatActivity {
+import com.example.annuoaichengzhang.scrolldemo.R;
+
+public class OffsetActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scroller);
+        setContentView(R.layout.activity_offset);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

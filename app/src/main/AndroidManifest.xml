@@ -19,27 +19,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LayoutActivity"
+            android:name=".qunyingzhuan.LayoutActivity"
             android:label="@string/title_activity_layout"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".OffsetActivity"
+            android:name=".qunyingzhuan.OffsetActivity"
             android:label="@string/title_activity_offset"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".ScrollToActivity"
+            android:name=".qunyingzhuan.ScrollToActivity"
             android:label="@string/title_activity_scroll_to"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".ScrollerActivity"
+            android:name=".qunyingzhuan.ScrollerActivity"
             android:label="@string/title_activity_scroller"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".ScrollerDemoActivity"
+            android:name=".qunyingzhuan.ScrollerDemoActivity"
             android:label="@string/title_activity_scroller_demo"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>

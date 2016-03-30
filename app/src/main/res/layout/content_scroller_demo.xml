@@ -10,11 +10,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.annuoaichengzhang.scrolldemo.ScrollerDemoActivity"
+    tools:context="com.example.annuoaichengzhang.scrolldemo.qunyingzhuan.ScrollerDemoActivity"
     tools:showIn="@layout/activity_scroller_demo"
     >
 
-    <com.example.annuoaichengzhang.scrolldemo.HorizontalFlingLayout1
+    <com.example.annuoaichengzhang.scrolldemo.qunyingzhuan.HorizontalFlingLayout1
         android:layout_width="150dp"
         android:layout_height="150dp"
         >
@@ -35,5 +35,5 @@
             />
 
 
-    </com.example.annuoaichengzhang.scrolldemo.HorizontalFlingLayout1>
+    </com.example.annuoaichengzhang.scrolldemo.qunyingzhuan.HorizontalFlingLayout1>
 </RelativeLayout>
